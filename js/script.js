@@ -1,4 +1,4 @@
-import '/library/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js';
+import '../library/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Terhubung");

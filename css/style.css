@@ -1,6 +1,6 @@
-@import url('/library/bootstrap-5.3.8-dist/css/bootstrap.min.css');
-@import url('/library/bootstrap-icons-1.13.1/bootstrap-icons.min.css');
-@import url('/css/font.css');
+@import url('../library/bootstrap-5.3.8-dist/css/bootstrap-grid.min.css');
+@import url('../library/bootstrap-icons-1.13.1/bootstrap-icons.min.css');
+@import url('font.css');
 
 :root {
     --bs-body-font-family: "Montserrat",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -49,13 +49,13 @@
 }
 
 body {
-    background-image: url('/asset/background/bg-headline-2.svg');
+    background-image: url('../asset/background/bg-headline-2.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #headline {
-    background-image: url('/asset/background/bg-headline-7.svg');
+    background-image: url('../asset/background/bg-headline-7.svg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -90,26 +90,26 @@ body {
 
 /* mengatur custom bg bahan */
 #bahan .bg-img-custom {
-    background-image: url('/asset/background/bg-bahan.svg');
+    background-image: url('../asset/background/bg-bahan.svg');
     background-size: cover;
     background-position: center;
 }
 
 #manfaat.bg-img-custom {
-    background-image: url('/asset/background/bg-manfaat.svg');
+    background-image: url('../asset/background/bg-manfaat.svg');
     background-size: cover;
     background-position: center;
 }
 
 #permasalahan.bg-img-custom {
-    background-image: url('/asset/background/bg-permasalahan.svg');
+    background-image: url('../asset/background/bg-permasalahan.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #hasil-penggunaan.bg-img-custom {
-    background-image: url('/asset/background/bg-hasil-penggunaan.svg');
+    background-image: url('../asset/background/bg-hasil-penggunaan.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,10 +132,10 @@ body {
 /* mengatur carousel agar memiliki tinggi seimbang */
 .carousel-caption {
     position: absolute;
-    inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
+    inset: 0;                
     display: flex;
-    align-items: center;      /* vertikal */
-    justify-content: center;  /* horizontal */
+    align-items: center;      
+    justify-content: center; 
     text-align: center;
 }
 
